@@ -61,7 +61,7 @@ doberman.barking();
 // Principle 4
 
 // code example for Explicit Binding
-const myObj = {
+const obj = {
     name: 'Denvinn Magsino',
     city: 'Valley Glen',
     favoriteFood: 'Korean Barbecue'
@@ -73,4 +73,4 @@ const myObj = {
     return `Hi! My name is ${this.name}, I live in ${this.city}, and I enjoy ${thing1}, ${thing2}, and ${thing3}. I love to eat ${this.favoriteFood}.`
   }
 
- console.log(tellUsAboutYourself.call(this.myObj,...thingsYouEnjoy));
+ console.log(tellUsAboutYourself.call(this.obj,...thingsYouEnjoy));
